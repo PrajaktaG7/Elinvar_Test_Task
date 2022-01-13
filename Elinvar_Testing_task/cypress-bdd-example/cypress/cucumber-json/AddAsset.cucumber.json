@@ -1,0 +1,59 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Add asset",
+    "line": 1,
+    "id": "add-asset",
+    "tags": [],
+    "uri": "AddAsset.feature",
+    "elements": [
+      {
+        "id": "add-asset;add-unique-asset-number",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Add unique asset number",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open Add Asset tab",
+            "result": {
+              "status": "undefined",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter the asset number ERST1234567890",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click on the send button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be presented with the following message Asset PQRA1234567890 was added to the list",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

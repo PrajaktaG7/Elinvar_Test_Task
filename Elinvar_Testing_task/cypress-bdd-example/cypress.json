@@ -1,0 +1,14 @@
+{
+    "testFiles": "**/*.feature",
+    
+    "defaultCommandTimeout": 5000,
+  "e2e": {
+    "defaultCommandTimeout": 15000,
+    "slowTestThreshold": 5000
+    
+  },
+  "component": {
+    "slowTestThreshold": 150
+  }
+}
+
